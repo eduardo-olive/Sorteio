@@ -55,21 +55,21 @@ As tabelas do banco de dados têm o seguinte formato:
 # Tabela Clientes
 | Campo      | Tipo         | Descrição                       |
 | ---------- | ------------ | ------------------------------- |
-| id_cliente | INT          | (PK)	Identificador do cliente. |
+| id         | INT          | (PK)	Identificador do cliente. |
 | nome       | VARCHAR(100) | Nome do cliente.                |
 | cpf        | VARCHAR(11)  | CPF do cliente.                 |
 
 # Tabela Carros
 | Campo          | Tipo        | Descrição                       |
 | -------------- | ----------- | ------------------------------- |
-| id_carro       | INT         | Identificador do carro.         |
+| id             | INT         | Identificador do carro.         |
 | modelo         | VARCHAR(50) | Modelo do carro.                |
 | ano_lancamento | INT         | Ano de lançamento do carro.     |
 
 # Tabela Vendas
 | Campo      | Tipo        | Descrição                      |
 | -----------| ----------- | ------------------------------ |
-| id_venda   | INT         | Identificador da venda.        |
+| id         | INT         | Identificador da venda.        |
 | id_cliente | VARCHAR(50) | Referência para o cliente.     |
 | id_carro   | INT         | Referência para o carro.       |
 | data_venda | DATETIME    | Data em que a venda foi feita. |
