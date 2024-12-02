@@ -1,0 +1,39 @@
+
+---
+
+### **.gitignore**
+
+```plaintext
+# Arquivos Delphi compilados
+*.exe
+*.dll
+*.dcu
+*.~*    # Arquivos temporários
+
+# Pastas temporárias e de cache
+__history/
+__recovery/
+*.local
+*.rs*
+*.identcache
+
+# Arquivos de configuração do IDE
+*.dsk
+*.cfg
+*.opt
+*.map
+
+# Logs e backups
+*.log
+*.bak
+
+# Banco de dados local (se usado)
+*.db
+*.sqlite
+
+# Arquivos gerados automaticamente
+*.res
+*.tvs
+*.dcuil
+*.or
+*.stat
